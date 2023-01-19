@@ -1,0 +1,273 @@
+/* navbar */
+#top_nav{
+    background-color: #eaae00;
+    padding: 0.5% 8%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255);
+    font-size: 20px;
+    padding-left: 25px;
+}
+
+#searchbox{
+    background-color: #fcc302;
+    color: white;
+    border: 0px;
+    border-radius: 0px;
+    position: relative;
+    left: 47px; 
+    box-shadow: 5px 10px 11px 0px #00000021;
+}
+
+#searchbox::placeholder{
+    color: white;
+}
+
+#searchbtn{
+    position: relative;
+    z-index: 99; 
+    border: 0px;
+    border-radius: 0;
+    background-color: #00bec9;
+    color: white;
+}
+
+/* Navbar responsive */
+@media only screen and (max-width: 992px){
+    #searchform{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        position: relative;
+        left: -20px;
+    }
+}
+
+/* Banner1 */
+#banner{
+    background-color: #fec900;
+    padding-bottom: 20px;
+}
+
+#bannertext h1{
+    color: white;
+    font-size: 70px;
+    margin-top: 100px;
+}
+
+#bannertext p{
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#banner-btn-1{
+    background-color: #00bec9;
+    border: 2px solid #00bec9;
+    color: white;
+}
+
+#banner-btn-2{
+    color: white;
+    border: 2px solid white;
+    margin-left: 15px;
+}
+
+/* Banner1 responsive */
+@media only screen and (max-width:1300px){
+    #bannertext h1{
+        font-size: 50px;
+    }
+    #bannerimg img{
+        padding-top: 70px;
+    }
+
+    #banner{
+        padding-bottom: 70px;
+    }
+}
+
+@media only screen and (max-width:900px){
+    #bannertext h1{
+        font-size: 40px;
+    }
+    #bannertext p{
+        font-size: 15px;
+    }
+}
+
+/* Banner2 */
+#service-text{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+#service-btn{
+    color: white;
+    background-color: #fcc302;
+    border: 2px solid #fcc302;
+}
+#service-img{
+    padding: 5%;
+}
+
+#service-text h1{
+    font-size: 70px;
+}
+#service-text p{
+    font-size: 30px;
+}
+#service-img img{
+    width: 600px;
+}
+
+@media only screen and (max-width:1300px){
+    #bannertext h1{
+        font-size: 30px;
+    }
+
+}
+
+/* Banner2 Responsive */
+@media only screen and (max-width:1300px){
+    #service-text h1{
+        font-size: 40px;
+    }
+    #service-text p{
+        font-size: 20px;
+    }
+    #service-img img{
+        padding-top: 40px;
+    }
+
+}
+
+
+@media only screen and (max-width:900px){
+    #service-text h1{
+        font-size: 30px;
+    }
+    #service-text p{
+        font-size: 15px;
+    }
+}
+
+/* Banner 3 */
+ #counter-selection{ 
+    background-image: url("../images/backgroundimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    opacity: 0.7;
+}
+.counter-icon{
+    font-size: 90px;
+    opacity: 1;
+}
+
+.h3text{
+    font-size: 50px;
+    opacity: 1;
+}
+
+@media only screen and (max-width:900px){
+    #counter-selection{
+        display: flex;
+        justify-content: space-around!important;
+    }
+    #counter-selection h3{
+        font-size: 30px;
+    }
+    
+}
+
+/* blog*/
+ #blog{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+#blog-title{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#blog-p{
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+.article-detail{
+    padding: 15px;
+    border: 1px solid rgb(185,185,185);
+    border-top: 0px;
+}
+
+.article-date{
+    color: royalblue;
+}
+
+ #blog img{
+     width: 100%;
+}
+
+/* Footer */
+#footer{
+    background-color: #343434;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#footer a{
+    text-decoration: none;
+    color: white;
+}
+
+#footer-form{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#footer-searchbox{
+    background-color: #fcc302;
+    color: white;
+    border: 0px;
+    padding: 15px;
+    width: 100%;
+    max-width: 250px;
+    position: relative;
+    left: 10px;
+}
+
+#footer-searchbtn{
+    padding: 15px 40px;
+    border: 0px;
+    border-radius: 0px;
+}
+
+ .social-icons{ 
+    font-size: 25px;
+    padding-left: 5px;
+}
+
+@media only screen and (max-width: 1150px){
+    #footer-searchbox{
+        max-width: 200px;
+    }
+}
+@media only screen and (max-width: 768px){
+    #footer-searchbox{
+        max-width: 120px;
+    }
+}
+@media only screen and (max-width: 500px){
+    #footer-searchbox{
+        max-width: 200px;
+    }
+    #footer{
+        padding-top: 10px;
+    }
+    #footer h4{
+        padding-top: 50px;
+    }
+}
